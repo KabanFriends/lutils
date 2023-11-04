@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'fabric-loom' version '1.1-SNAPSHOT'
     id "io.github.juuxel.loom-quiltflower" version "1.+"
-    //id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 group 'org.lexize'
@@ -45,11 +45,10 @@ processResources {
     }
 }
 
-// This is no longer needed
-/*
 shadowJar {
     // I don't know how to Groovy!!
-    relocate 'org.figuramc', 'fabric.org.figuramc'
+    // temp: fix this when 1.20.2 figura is released
+    relocate 'fabric.org.figuramc', 'org.figuramc'
 
     include '*.json'
 
@@ -58,4 +57,3 @@ shadowJar {
     include 'lutils/'
     include 'org/'
 }
-*/
