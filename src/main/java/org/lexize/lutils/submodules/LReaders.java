@@ -3,9 +3,8 @@ package org.lexize.lutils.submodules;
 import org.lexize.lutils.annotations.LField;
 import org.lexize.lutils.readers.LStringReader;
 import org.lexize.lutils.readers.LReader;
-import org.lexize.lutils.readers.LStringReader;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.nio.charset.StandardCharsets;
 

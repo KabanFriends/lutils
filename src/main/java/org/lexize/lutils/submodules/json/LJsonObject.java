@@ -4,7 +4,7 @@ import org.luaj.vm2.LuaFunction;
 import org.luaj.vm2.LuaTable;
 import org.luaj.vm2.LuaValue;
 import org.luaj.vm2.Varargs;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.util.*;
 

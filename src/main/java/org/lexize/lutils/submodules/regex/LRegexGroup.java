@@ -2,7 +2,7 @@ package org.lexize.lutils.submodules.regex;
 
 import org.lexize.lutils.annotations.LField;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 @LuaWhitelist
 @LField(value = "start", type = Integer.class)

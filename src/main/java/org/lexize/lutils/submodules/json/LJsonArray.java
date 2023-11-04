@@ -2,7 +2,7 @@ package org.lexize.lutils.submodules.json;
 
 import org.jetbrains.annotations.NotNull;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.util.ArrayList;
 import java.util.Collection;

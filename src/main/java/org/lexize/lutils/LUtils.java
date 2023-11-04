@@ -1,5 +1,6 @@
 package org.lexize.lutils;
 
+import org.figuramc.figura.entries.annotations.FiguraAPIPlugin;
 import org.lexize.lutils.annotations.LDescription;
 import org.lexize.lutils.annotations.LField;
 import org.lexize.lutils.misc.LFuture;
@@ -24,18 +25,18 @@ import org.lexize.lutils.submodules.regex.LRegexGroup;
 import org.lexize.lutils.submodules.regex.LRegexMatch;
 import org.lexize.lutils.submodules.socket.LSocket;
 import org.lexize.lutils.submodules.socket.LSocketClient;
-import org.moon.figura.avatar.Avatar;
-import org.moon.figura.entries.FiguraAPI;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.avatar.Avatar;
+import org.figuramc.figura.entries.FiguraAPI;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
 
+@FiguraAPIPlugin
 @LuaWhitelist
 @LDescription("Main class of LUtils. Provides access to all submodules")
 @LField(value = "json", type = LJson.class, description = "JSON submodule of LUtils")

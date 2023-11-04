@@ -1,7 +1,7 @@
 package org.lexize.lutils.misc;
 
 import org.lexize.lutils.annotations.LDescription;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 @LuaWhitelist
 public class LFuture<T> {

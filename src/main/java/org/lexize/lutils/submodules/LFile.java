@@ -9,8 +9,8 @@ import org.lexize.lutils.streams.LJavaInputStream;
 import org.lexize.lutils.streams.LJavaOutputStream;
 import org.lexize.lutils.streams.LOutputStream;
 import org.luaj.vm2.LuaError;
-import org.moon.figura.FiguraMod;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.FiguraMod;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

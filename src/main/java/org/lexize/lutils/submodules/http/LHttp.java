@@ -9,9 +9,9 @@ import org.lexize.lutils.readers.LReader;
 import org.lexize.lutils.streams.LJavaInputStream;
 import org.luaj.vm2.LuaError;
 import org.luaj.vm2.LuaTable;
-import org.moon.figura.FiguraMod;
-import org.moon.figura.avatar.Avatar;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.FiguraMod;
+import org.figuramc.figura.avatar.Avatar;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 import java.io.InputStream;

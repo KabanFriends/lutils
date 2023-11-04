@@ -3,7 +3,7 @@ package org.lexize.lutils.streams;
 import org.lexize.lutils.annotations.LField;
 import org.luaj.vm2.LuaFunction;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 

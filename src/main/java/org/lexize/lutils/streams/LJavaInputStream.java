@@ -1,7 +1,7 @@
 package org.lexize.lutils.streams;
 
 import org.lexize.lutils.annotations.LInclude;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 import java.io.InputStream;

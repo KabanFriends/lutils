@@ -4,8 +4,8 @@ import org.lexize.lutils.LUtilsTrust;
 import org.lexize.lutils.annotations.LDescription;
 import org.lexize.lutils.annotations.LDocsFuncOverload;
 import org.luaj.vm2.LuaError;
-import org.moon.figura.avatar.Avatar;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.avatar.Avatar;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 import java.net.Socket;

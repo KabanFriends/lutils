@@ -1,13 +1,10 @@
 package org.lexize.lutils.submodules.regex;
 
 import org.lexize.lutils.annotations.LField;
-import org.luaj.vm2.LuaTable;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 

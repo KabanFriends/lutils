@@ -6,8 +6,8 @@ import org.lexize.lutils.annotations.LDocsFuncOverloads;
 import org.luaj.vm2.LuaFunction;
 import org.luaj.vm2.LuaTable;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
-import org.moon.figura.lua.ReadOnlyLuaTable;
+import org.figuramc.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.ReadOnlyLuaTable;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

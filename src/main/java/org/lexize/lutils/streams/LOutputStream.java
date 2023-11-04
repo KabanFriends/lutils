@@ -1,6 +1,6 @@
 package org.lexize.lutils.streams;
 
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.IOException;
 import java.io.OutputStream;

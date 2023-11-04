@@ -2,9 +2,8 @@ package org.lexize.lutils.streams;
 
 import org.lexize.lutils.annotations.LDescription;
 import org.lexize.lutils.annotations.LDocsFuncOverload;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

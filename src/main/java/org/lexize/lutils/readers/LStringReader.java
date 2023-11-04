@@ -1,7 +1,6 @@
 package org.lexize.lutils.readers;
 
-import org.lexize.lutils.streams.LInputStream;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

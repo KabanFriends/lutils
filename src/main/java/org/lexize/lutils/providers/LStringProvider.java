@@ -4,7 +4,7 @@ import org.lexize.lutils.annotations.LDocsFuncOverload;
 import org.lexize.lutils.annotations.LInclude;
 import org.lexize.lutils.streams.LInputStream;
 import org.lexize.lutils.streams.LJavaInputStream;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.ByteArrayInputStream;
 import java.nio.charset.Charset;

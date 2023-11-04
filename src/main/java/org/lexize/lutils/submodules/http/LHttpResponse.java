@@ -2,7 +2,7 @@ package org.lexize.lutils.submodules.http;
 
 import org.lexize.lutils.annotations.LDocsFuncOverload;
 import org.luaj.vm2.LuaTable;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.util.List;
 import java.util.Map;

@@ -8,11 +8,9 @@ import org.lexize.lutils.providers.LStringProvider;
 import org.lexize.lutils.readers.LJsonReader;
 import org.lexize.lutils.readers.LStringReader;
 import org.lexize.lutils.submodules.LMisc;
-import org.lexize.lutils.submodules.json.converters.LJsonArrayConverter;
-import org.lexize.lutils.submodules.json.converters.LJsonObjectConverter;
 import org.luaj.vm2.LuaTable;
 import org.luaj.vm2.LuaValue;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;

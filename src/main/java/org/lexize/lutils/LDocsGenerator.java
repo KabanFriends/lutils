@@ -2,7 +2,7 @@ package org.lexize.lutils;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.lexize.lutils.annotations.*;
-import org.moon.figura.lua.LuaWhitelist;
+import org.figuramc.figura.lua.LuaWhitelist;
 
 import java.io.*;
 import java.lang.annotation.Annotation;
